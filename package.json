@@ -7,15 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "David Driscoll <david.driscoll@gmail.com>",
-  "license": {
-    "type": "MIT License",
-    "url": "http://opensource.org/licenses/mit-license.html"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/david-driscoll/font-awesome-kendo-ui"
   },
   "devDependencies": {
-    "less": "~1.4.2",
-    "grunt-contrib-less": "~0.7.0",
-    "grunt": "~0.4.1",
-    "lodash": "~2.0.0",
-    "grunt-contrib-watch": "~0.5.3"
+    "less": "~2.7.2",
+    "grunt-contrib-less": "~1.4.0",
+    "grunt": "~1.0.1",
+    "lodash": "~4.17.4",
+    "grunt-contrib-watch": "~1.0.0"
   }
 }
