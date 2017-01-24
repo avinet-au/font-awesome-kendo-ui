@@ -13,8 +13,7 @@
     "tests"
   ],
   "dependencies": {
-    "font-awesome": "~3.2.1",
-    "kendo-ui": "~2013.1.319"
+    "font-awesome": "~4.7.0"
   },
   "devDependencies": {
     "less.js": "~1.4.2"

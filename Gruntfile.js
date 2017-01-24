@@ -47,7 +47,7 @@ grunt.initConfig({
   watch: {
     scripts: {
       files: ['*.less'],
-      tasks: ['fa-parse', 'less'],
+      tasks: ['less'],
       options: {
         spawn: false,
       },
@@ -58,19 +58,7 @@ grunt.initConfig({
 grunt.loadNpmTasks('grunt-contrib-less');
 grunt.loadNpmTasks('grunt-contrib-watch');
 
-grunt.registerTask('fa-parse', 'parse font-awesome icons and migrate them to local variables less.', function(){
-  var container = grunt.file.readYAML('bower_components/font-awesome/src/icons.yml'),
-      content = ''
-
-  grunt.util._.each(container.icons, function(icon){
-    content += '@' + icon.id + ': "\\' + icon.unicode + '";\n';
-  })
-  grunt.file.write('icons.less', content);
-
-
-})
-
-grunt.registerTask('default', [ 'fa-parse', 'less' ]);
+grunt.registerTask('default', [ 'less' ]);
 grunt.registerTask('deploy', [ 'default' ]);
 
 };
