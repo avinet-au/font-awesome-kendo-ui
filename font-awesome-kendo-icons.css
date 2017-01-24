@@ -118,7 +118,7 @@
   content: "\f068";
 }
 .k-i-pencil:before,
-.k-edit:before {
+.k-i-edit:before {
   content: "\f040";
 }
 .k-i-close:before,
@@ -147,7 +147,7 @@
   content: "\f055";
 }
 .k-i-funnel:before,
-.k-filter:before {
+k-i-filter:before {
   content: "\f0b0";
 }
 .k-i-funnel-clear:before,
