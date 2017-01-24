@@ -6,16 +6,12 @@
   ],
   "license": "MIT",
   "ignore": [
-    "**/.*",
+    "example",
     "node_modules",
     "bower_components",
-    "test",
-    "tests"
+    "*.less"
   ],
   "dependencies": {
     "font-awesome": "~4.7.0"
-  },
-  "devDependencies": {
-    "less.js": "~1.4.2"
   }
 }
