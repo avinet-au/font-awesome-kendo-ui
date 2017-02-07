@@ -9,14 +9,6 @@
   -webkit-font-smoothing: antialiased;
   *margin-right: .3em;
 }
-.k-icon:before {
-  text-decoration: inherit;
-  display: inline-block;
-  speak: none;
-  width: 16px;
-  height: 16px;
-  padding-top: 0.55em;
-}
 .k-numerictextbox .k-icon:before {
   height: 11px;
   padding-top: 5px;
