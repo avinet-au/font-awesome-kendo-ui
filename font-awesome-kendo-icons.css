@@ -87,26 +87,12 @@
 .k-i-arrow-chevron-left:before {
   content: "\f053";
 }
-.k-i-arrow-60-right:before,
 .k-i-plus:before,
 .k-i-plus-disabled:before {
   content: "\f067";
 }
-.k-i-arrow-60-right-w:before,
-.k-rtl .k-i-arrow-60-right:before,
-.k-rtl .k-i-plus:before,
-.k-rtl .k-i-plus-disabled:before {
-  content: "\f067";
-}
-.k-i-arrow-60-down:before,
 .k-i-minus:before,
 .k-i-minus-disabled:before {
-  content: "\f068";
-}
-.k-i-arrow-60-down-w:before,
-.k-rtl .k-i-arrow-60-down:before,
-.k-rtl .k-i-minus:before,
-.k-rtl .k-i-minus-disabled:before {
   content: "\f068";
 }
 .k-i-pencil:before,

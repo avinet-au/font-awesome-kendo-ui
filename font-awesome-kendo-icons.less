@@ -13,15 +13,6 @@
     *margin-right: .3em;
 }
 
-// .k-icon:before {
-//     text-decoration: inherit;
-//     display: inline-block;
-//     speak: none;
-//     width: 16px;
-//     height: 16px;
-//     padding-top: 0.55em;
-// }
-
 // Fixup layout of the styles for these specific cases.
 // Numeric Textbox: Arrows are too low
 .k-numerictextbox .k-icon {
@@ -50,31 +41,6 @@
     top: 6px;
     right: 6px;
 }
-
-// Not sure if these are needed anymore.
-// .k-numerictextbox .k-select .k-link span.k-i-arrow-60-up:before {
-//     content: @fa-var-caret-up;
-// }
-
-// .k-numerictextbox .k-select .k-link span.k-i-arrow-60-down:before {
-//     content: @fa-var-caret-down;
-// }
-
-// .k-state-selected .k-i-arrow-60-up:before {
-//     content: @fa-var-caret-up;
-// }
-
-// .k-numerictextbox .k-link.k-state-selected span.k-i-arrow-60-up, .k-numerictextbox .k-state-hover .k-link span.k-i-arrow-60-up:before {
-//     content: @fa-var-caret-up;
-// }
-
-// .k-state-selected .k-i-arrow-60-down:before {
-//     content: @fa-var-caret-down;
-// }
-
-// .k-numerictextbox .k-link.k-state-selected span.k-i-arrow-60-down, .k-numerictextbox .k-state-hover .k-link span.k-i-arrow-60-down:before {
-//     content: @fa-var-caret-down;
-// }
 
 .k-i-arrow-60-up {
     &:before {
@@ -202,25 +168,13 @@
     }
 }
 
-.k-i-arrow-60-right, .k-i-plus, .k-i-plus-disabled {
+.k-i-plus, .k-i-plus-disabled {
     &:before {
         content: @fa-var-plus;
     }
 }
 
-.k-i-arrow-60-right-w, .k-rtl .k-i-arrow-60-right, .k-rtl .k-i-plus, .k-rtl .k-i-plus-disabled {
-    &:before {
-        content: @fa-var-plus;
-    }
-}
-
-.k-i-arrow-60-down, .k-i-minus, .k-i-minus-disabled {
-    &:before {
-        content: @fa-var-minus;
-    }
-}
-
-.k-i-arrow-60-down-w, .k-rtl .k-i-arrow-60-down, .k-rtl .k-i-minus, .k-rtl .k-i-minus-disabled {
+.k-i-minus, .k-i-minus-disabled {
     &:before {
         content: @fa-var-minus;
     }
@@ -365,42 +319,6 @@
     }
 }
 
-.k-i-insert-n, .k-insert-top {
-    &:before {
-        // Used for tree view drag and drop
-        // Not sure of an idea icon to use.
-        // Perhaps make a request to FA?
-        //content: @fa-var-10, 2;
-    }
-}
-
-.k-i-insert-m, .k-insert-middle {
-    &:before {
-        // Used for tree view drag and drop
-        // Not sure of an idea icon to use.
-        // Perhaps make a request to FA?
-        //content: @fa-var-10, 3;
-    }
-}
-
-.k-i-insert-s, .k-insert-bottom {
-    &:before {
-        // Used for tree view drag and drop
-        // Not sure of an idea icon to use.
-        // Perhaps make a request to FA?
-        //content: @fa-var-10, 4;
-    }
-}
-
-.k-drop-hint {
-    &:before {
-        // Used for tree view drag and drop
-        // Not sure of an idea icon to use.
-        // Perhaps make a request to FA?
-        //content: @fa-var-0 -326px;
-    }
-}
-
 .k-i-note, .k-warning {
     &:before {
         content: @fa-var-exclamation-circle;
@@ -416,22 +334,6 @@
 .k-i-sort-desc {
     &:before {
         content: @fa-var-sort-amount-desc;
-    }
-}
-
-.k-i-group {
-    &:before {
-        // No real great alternative in FA
-        // Row grouping / table grouping
-        //content: @fa-var-7, 17;
-    }
-}
-
-.k-i-ungroup {
-    &:before {
-        // No real great alternative in FA
-        // Row grouping / table grouping
-        //content: @fa-var-7, 18;
     }
 }
 
@@ -492,22 +394,6 @@
 .k-strikethrough {
     &:before {
         content: @fa-var-strikethrough;
-    }
-}
-
-.k-foreColor {
-    &:before {
-        // No real good icon in FA
-        // Maybe make a request.
-        //content: @fa-var--64px -88px;
-    }
-}
-
-.k-backColor {
-    &:before {
-        // No real good icon in FA
-        // Maybe make a request.
-        // content: -64px -110px;
     }
 }
 
@@ -590,151 +476,6 @@
         content: @fa-var-superscript;
     }
 }
-
-// Slider, what do we do with you?
-// .k-slider-horizontal .k-tick {
-//     content: center -92px;
-// }
-
-// .k-slider-horizontal .k-slider-topleft .k-tick {
-//     content: center -122px;
-// }
-
-// .k-slider-horizontal .k-slider-bottomright .k-tick {
-//     content: center -152px;
-// }
-
-// .k-slider-horizontal .k-tick-large {
-//     content: center -2px;
-// }
-
-// .k-slider-horizontal .k-slider-topleft .k-tick-large {
-//     content: center -32px;
-// }
-
-// .k-slider-horizontal .k-slider-bottomright .k-tick-large {
-//     content: center -62px;
-// }
-
-// .k-slider-vertical .k-tick {
-//     content: -92px center;
-// }
-
-// .k-slider-vertical .k-slider-topleft .k-tick {
-//     content: -122px center;
-// }
-
-// .k-slider-vertical .k-slider-bottomright .k-tick {
-//     content: -152px center;
-// }
-
-// .k-slider-vertical .k-tick-large {
-//     content: -2px center;
-// }
-
-// .k-slider-vertical .k-slider-topleft .k-tick-large {
-//     content: -32px center;
-// }
-
-// .k-slider-vertical .k-slider-bottomright .k-tick-large {
-//     content: -62px center;
-// }
-
-// .k-slider-horizontal .k-first {
-//     content: 0 -92px;
-// }
-
-// .k-slider-horizontal .k-tick-large.k-first {
-//     content: 0 -2px;
-// }
-
-// .k-slider-horizontal .k-slider-topleft .k-first {
-//     content: 0 -122px;
-// }
-
-// .k-slider-horizontal .k-slider-topleft .k-tick-large.k-first {
-//     content: 0 -32px;
-// }
-
-// .k-slider-horizontal .k-slider-bottomright .k-first {
-//     content: 0 -152px;
-// }
-
-// .k-slider-horizontal .k-slider-bottomright .k-tick-large.k-first {
-//     content: 0 -62px;
-// }
-
-// .k-slider-horizontal .k-last {
-//     content: 100% -92px;
-// }
-
-// .k-slider-horizontal .k-tick-large.k-last {
-//     content: 100% -2px;
-// }
-
-// .k-slider-horizontal .k-slider-topleft .k-last {
-//     content: 100% -122px;
-// }
-
-// .k-slider-horizontal .k-slider-topleft .k-tick-large.k-last {
-//     content: 100% -32px;
-// }
-
-// .k-slider-horizontal .k-slider-bottomright .k-last {
-//     content: 100% -152px;
-// }
-
-// .k-slider-horizontal .k-slider-bottomright .k-tick-large.k-last {
-//     content: 100% -62px;
-// }
-
-// .k-slider-vertical .k-first {
-//     content: -92px 100%;
-// }
-
-// .k-slider-vertical .k-tick-large.k-first {
-//     content: -2px 100%;
-// }
-
-// .k-slider-vertical .k-slider-topleft .k-first {
-//     content: -122px 100%;
-// }
-
-// .k-slider-vertical .k-slider-topleft .k-tick-large.k-first {
-//     content: -32px 100%;
-// }
-
-// .k-slider-vertical .k-slider-bottomright .k-first {
-//     content: -152px 100%;
-// }
-
-// .k-slider-vertical .k-slider-bottomright .k-tick-large.k-first {
-//     content: -62px 100%;
-// }
-
-// .k-slider-vertical .k-last {
-//     content: -92px 0;
-// }
-
-// .k-slider-vertical .k-tick-large.k-last {
-//     content: -2px 0;
-// }
-
-// .k-slider-vertical .k-slider-topleft .k-last {
-//     content: -122px 0;
-// }
-
-// .k-slider-vertical .k-slider-topleft .k-tick-large.k-last {
-//     content: -32px 0;
-// }
-
-// .k-slider-vertical .k-slider-bottomright .k-last {
-//     content: -152px 0;
-// }
-
-// .k-slider-vertical .k-slider-bottomright .k-tick-large.k-last {
-//     content: -62px 0;
-// }
 
 .k-upload .k-upload-files .k-delete,
 .k-upload .k-upload-files .k-cancel {
