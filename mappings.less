@@ -1,0 +1,525 @@
+@import "bower_components/font-awesome/less/variables.less";
+
+// Fixup layout of the styles for these specific cases.
+// Numeric Textbox: Arrows are too low
+.k-numerictextbox .k-icon {
+    &:before {
+        height: 11px;
+        padding-top: 5px; // Arrows are too low
+    }
+}
+
+
+// Calendar (both datepicker and calendar): Arrows are to high
+.k-calendar .k-icon {
+    vertical-align: middle;
+    &:before {
+        padding-top: 9px;
+    }
+}
+
+// Slider: Arrows are to high, va = middle fixes it.
+.k-slider .k-button .k-icon {
+    vertical-align: middle;
+}
+
+// Panelbar: Arrow is to far right, and top.
+.k-panelbar-expand, .k-panelbar-collapse {
+    top: 6px;
+    right: 6px;
+}
+
+.k-i-arrow-60-up {
+    &:before {
+        content: @fa-var-caret-up;
+    }
+}
+
+.k-i-arrow-60-right {
+    &:before {
+        content: @fa-var-caret-right;
+    }
+}
+
+.k-i-arrow-60-left {
+    .k-rtl {
+        &:before {
+        content: @fa-var-caret-right;
+    }
+    }
+}
+
+.k-i-arrow-60-down {
+    &:before {
+        content: @fa-var-caret-down;
+    }
+}
+
+.k-i-arrow-60-left {
+    &:before {
+        content: @fa-var-caret-left;
+    }
+}
+
+.k-i-arrow-60-right {
+    .k-rtl { &:before {
+        content: @fa-var-caret-left;    }
+    }
+}
+
+.k-i-arrow-seek-up {
+    &:before {
+        content: @fa-var-angle-double-up;
+    }
+}
+
+.k-i-arrow-end-right {
+    &:before {
+        content: @fa-var-angle-double-right;
+    }
+}
+
+.k-i-arrow-end-left {
+    .k-rtl {
+        &:before {
+        content: @fa-var-angle-double-right;
+    }
+    }
+}
+
+.k-i-arrow-seek-down {
+    &:before {
+        content: @fa-var-angle-double-down;
+    }
+}
+
+.k-i-arrow-end-left {
+    &:before {
+        content: @fa-var-angle-double-left;
+    }
+}
+
+.k-i-arrow-end-right {
+    .k-rtl {
+        &:before {
+        content: @fa-var-angle-double-left;
+    }
+    }
+}
+
+.k-si-arrow-n {
+    &:before {
+        content: @fa-var-angle-up;
+    }
+}
+
+.k-si-arrow-e {
+    &:before {
+        content: @fa-var-angle-right;
+    }
+}
+
+.k-si-arrow-s {
+    &:before {
+        content: @fa-var-angle-down;
+    }
+}
+
+.k-si-arrow-w {
+    &:before {
+        content: @fa-var-angle-left;
+    }
+}
+
+.k-i-arrow-chevron-up {
+    &:before {
+        content: @fa-var-chevron-up;
+    }
+}
+
+.k-i-arrow-chevron-right {
+    &:before {
+        content: @fa-var-chevron-right;
+    }
+}
+
+.k-i-arrow-chevron-down {
+    &:before {
+        content: @fa-var-chevron-down;
+    }
+}
+
+.k-i-arrow-chevron-left {
+    &:before {
+        content: @fa-var-chevron-left;
+    }
+}
+
+.k-i-plus, .k-i-plus-disabled {
+    &:before {
+        content: @fa-var-plus;
+    }
+}
+
+.k-i-minus, .k-i-minus-disabled {
+    &:before {
+        content: @fa-var-minus;
+    }
+}
+
+.k-i-pencil, .k-i-edit {
+    &:before {
+        content: @fa-var-pencil;
+    }
+}
+
+.k-i-close, .k-delete, .k-group-delete {
+    &:before {
+        content: @fa-var-remove;
+    }
+}
+
+.k-multiselect .k-delete {
+    &:before {
+        content: @fa-var-remove;
+    }
+}
+
+.k-multiselect .k-state-hover .k-delete {
+    &:before {
+        content: @fa-var-remove;
+    }
+}
+
+.k-i-tick, .k-insert, .k-update {
+    &:before {
+        content: @fa-var-check-circle;
+    }
+}
+
+.k-i-cancel, .k-cancel, .k-denied {
+    &:before {
+        content: @fa-var-times-circle;
+    }
+}
+
+.k-i-plus, .k-add {
+    &:before {
+        content: @fa-var-plus-circle;
+    }
+}
+
+.k-i-funnel, .k-i-filter {
+    &:before {
+        content: @fa-var-filter;
+    }
+}
+
+.k-i-funnel-clear, .k-clear-filter {
+    &:before {
+        content: @fa-var-times-circle;
+    }
+}
+
+.k-i-refresh {
+    &:before {
+        content: @fa-var-refresh;
+    }
+}
+
+.k-i-window-restore {
+    &:before {
+        content: @fa-var-window-restore;
+    }
+}
+
+.k-i-window-maximize {
+    &:before {
+        content: @fa-var-window-maximize;
+    }
+}
+
+.k-i-window-minimize {
+    &:before {
+        content: @fa-var-window-minimize;
+    }
+}
+
+.k-resize-se {
+    &:before {
+        content: @fa-var-chevron-right;
+
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+    }
+}
+
+.k-i-calendar {
+    &:before {
+        content: @fa-var-calendar-o;
+    }
+}
+
+.k-i-clock {
+    &:before {
+        content: @fa-var-clock-o;
+    }
+}
+
+.k-si-plus {
+    &:before {
+        content: @fa-var-plus-circle;
+    }
+}
+
+.k-si-minus {
+    &:before {
+        content: @fa-var-minus-circle;
+    }
+}
+
+.k-i-search {
+    &:before {
+        content: @fa-var-search;
+    }
+}
+
+.k-i-custom {
+    &:before {
+        content: @fa-var-cog;
+    }
+}
+
+.k-editor .k-i-custom {
+    &:before {
+        content: @fa-var-cog;
+    }
+}
+
+.k-viewHtml {
+    &:before {
+        content: @fa-var-code;
+    }
+}
+
+.k-i-note, .k-warning {
+    &:before {
+        content: @fa-var-exclamation-circle;
+    }
+}
+
+.k-i-sort-asc {
+    &:before {
+        content: @fa-var-sort-amount-asc;
+    }
+}
+
+.k-i-sort-desc {
+    &:before {
+        content: @fa-var-sort-amount-desc;
+    }
+}
+
+.k-i-columns {
+    &:before {
+        content: @fa-var-columns;
+    }
+}
+
+.k-file {
+    &:before {
+        content: @fa-var-file;
+    }
+}
+
+.k-i-folder-add, .k-addfolder {
+    &:before {
+        content: @fa-var-folder-o;
+    }
+    &:after {
+        content: @fa-var-plus-circle;
+        font-size: 0.5em;
+        padding-top: 6px;
+        padding-left: 6px;
+    }
+}
+
+.k-i-folder-up, .k-goup {
+    &:before {
+        content: @fa-var-folder-o;
+    }
+    &:after {
+        content: @fa-var-arrow-up;
+        font-size: 0.5em;
+        padding-top: 6px;
+        padding-left: 6px;
+    }
+}
+
+.k-bold {
+    &:before {
+        content: @fa-var-bold;
+    }
+}
+
+.k-italic {
+    &:before {
+        content: @fa-var-italic;
+    }
+}
+
+.k-underline {
+    &:before {
+        content: @fa-var-underline;
+    }
+}
+
+.k-strikethrough {
+    &:before {
+        content: @fa-var-strikethrough;
+    }
+}
+
+.k-justifyLeft {
+    &:before {
+        content: @fa-var-align-left;
+    }
+}
+
+.k-justifyCenter {
+    &:before {
+        content: @fa-var-align-center;
+    }
+}
+
+.k-justifyRight {
+    &:before {
+        content: @fa-var-align-right;
+    }
+}
+
+.k-justifyFull {
+    &:before {
+        content: @fa-var-align-justify;
+    }
+}
+
+.k-insertUnorderedList {
+    &:before {
+        content: @fa-var-list-ul;
+    }
+}
+
+.k-insertOrderedList {
+    &:before {
+        content: @fa-var-list-ol;
+    }
+}
+
+.k-indent, .k-rtl .k-outdent {
+    &:before {
+        content: @fa-var-indent;
+    }
+}
+
+.k-outdent, .k-rtl .k-indent {
+    &:before {
+        content: @fa-var-outdent;
+    }
+}
+
+.k-createLink {
+    &:before {
+        content: @fa-var-link;
+    }
+}
+
+.k-unlink {
+    &:before {
+        content: @fa-var-unlink;
+    }
+}
+
+.k-insertImage {
+    &:before {
+        // Not really the best
+        // make a request?
+        content: @fa-var-file;
+    }
+}
+
+.k-subscript {
+    &:before {
+        content: @fa-var-subscript;
+    }
+}
+
+.k-superscript {
+    &:before {
+        content: @fa-var-superscript;
+    }
+}
+
+.k-upload .k-upload-files .k-delete,
+.k-upload .k-upload-files .k-cancel {
+    &:before {
+        content: @fa-var-ban;
+    }
+}
+
+.k-upload .k-fail {
+    &:before {
+        content: @fa-var-ban;
+    }
+}
+
+.k-retry {
+    &:before {
+        content: @fa-var-repeat;
+    }
+}
+
+.k-si-refresh {
+    &:before {
+        content: @fa-var-refresh;
+    }
+}
+
+.k-si-tick, .k-success {
+    &:before {
+        content: @fa-var-check;
+    }
+}
+
+.k-si-cancel {
+    &:before {
+        content: @fa-var-ban;
+    }
+}
+
+.k-imagebrowser .k-upload-button .k-add {
+    &:before {
+        content: @fa-var-plus;
+    }
+}
+
+.k-imagebrowser .k-button-bare span.k-addfolder {
+    &:before {
+        content: @fa-var-folder-o;
+    }
+    &:after {
+        content: @fa-var-plus-circle;
+        font-size: 0.5em;
+        padding-top: 6px;
+        padding-left: 6px;
+    }}
+
+.k-imagebrowser .k-button-bare span.k-delete {
+    &:before {
+        content: @fa-var-remove;
+    }
+}

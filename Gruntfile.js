@@ -36,11 +36,18 @@ grunt.initConfig({
   less: {
     kendo: {
       options: {
-        //paths: ["bower_components/bootstrap/less"],
         yuicompress: false
       },
       files: {
         "font-awesome-kendo-icons.css": "font-awesome-kendo-icons.less"
+      }
+    },
+    test: {
+      options: {
+        yuicompress: false
+      },
+      files: {
+        "test/test.css": "test/test.less"
       }
     }
   },

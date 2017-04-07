@@ -1,0 +1,26 @@
+doctype html
+html
+    head
+        title #{pageTitle}
+        link(href="bower_components/bootstrap/dist/css/bootstrap.min.css", rel="stylesheet")
+        link(href="test/test.css", rel="stylesheet")
+        link(href="bower_components/font-awesome/css/font-awesome.min.css", rel="stylesheet")
+        link(href="bower_components/kendo-ui/styles/kendo.common.min.css", rel="stylesheet")
+        link(href="bower_components/kendo-ui/styles/kendo.default.min.css", rel="stylesheet")
+    body
+        div(class="container")
+            h1 #{pageTitle}
+            table(class="table table-striped")
+                tr
+                    th Class
+                    th Old Icon
+                    th New Icon
+                each c in classes
+                    tr
+                        td #{c}
+                        td
+                            span(class=c + " k-icon")
+                        td(class="font-awesome")
+                            span(class=c + " fa-icon")
+        script(src="bower_components/jquery/dist/jquery.min.js")
+        script(src="bower_components/bootstrap/dist/js/bootstrap.min.js")
