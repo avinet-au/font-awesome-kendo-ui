@@ -30,13 +30,15 @@
 .k-i-arrow-60-up:before {
   content: "\f0d8";
 }
-.k-i-arrow-60-right:before {
+.k-i-arrow-60-right:before,
+.k-i-expand:before {
   content: "\f0da";
 }
 .k-i-arrow-60-left .k-rtl:before {
   content: "\f0da";
 }
-.k-i-arrow-60-down:before {
+.k-i-arrow-60-down:before,
+.k-i-collapse:before {
   content: "\f0d7";
 }
 .k-i-arrow-60-left:before {
