@@ -31,7 +31,8 @@
   content: "\f0d8";
 }
 .k-i-arrow-60-right:before,
-.k-i-expand:before {
+.k-i-expand:before,
+.k-i-arrow-e:before {
   content: "\f0da";
 }
 .k-i-arrow-60-left .k-rtl:before {
@@ -41,23 +42,32 @@
 .k-i-collapse:before {
   content: "\f0d7";
 }
-.k-i-arrow-60-left:before {
+.k-i-arrow-60-left:before,
+.k-i-arrow-w:before {
   content: "\f0d9";
 }
 .k-i-arrow-60-right .k-rtl:before {
   content: "\f0d9";
 }
+.k-i-arrow-seek-right:before,
+.k-i-seek-right:before {
+  content: "\f101";
+}
+.k-i-arrow-seek-left:before,
+.k-i-seek-left:before {
+  content: "\f100";
+}
 .k-i-arrow-seek-up:before {
   content: "\f102";
+}
+.k-i-arrow-seek-down:before {
+  content: "\f103";
 }
 .k-i-arrow-end-right:before {
   content: "\f101";
 }
 .k-i-arrow-end-left .k-rtl:before {
   content: "\f101";
-}
-.k-i-arrow-seek-down:before {
-  content: "\f103";
 }
 .k-i-arrow-end-left:before {
   content: "\f100";
@@ -104,6 +114,9 @@
 .k-i-close:before,
 .k-delete:before,
 .k-group-delete:before {
+  content: "\f00d";
+}
+.k-i-close:before {
   content: "\f00d";
 }
 .k-multiselect .k-delete:before {
@@ -192,8 +205,53 @@
 .k-i-columns:before {
   content: "\f0db";
 }
-.k-file:before {
-  content: "\f15b";
+.k-i-file:before {
+  content: "\f016";
+}
+.k-i-file-add:before {
+  content: "\f016";
+}
+.k-i-file-txt:before {
+  content: "\f0f6";
+}
+.k-i-file-csv:before {
+  content: "\f016";
+}
+.k-i-file-excel:before {
+  content: "\f1c3";
+}
+.k-i-file-word:before {
+  content: "\f1c2";
+}
+.k-i-file-mdb:before {
+  content: "\f016";
+}
+.k-i-file-ppt:before {
+  content: "\f1c4";
+}
+.k-i-file-pdf:before {
+  content: "\f1c1";
+}
+.k-i-file-psd:before {
+  content: "\f016";
+}
+.k-i-file-flash:before {
+  content: "\f016";
+}
+.k-i-file-config:before {
+  content: "\f1c9";
+}
+.k-i-file-ascx:before {
+  content: "\f1c9";
+}
+.k-i-file-bac:before {
+  content: "\f1c6";
+}
+.k-i-file-zip:before {
+  content: "\f1c6";
+}
+.k-i-film:before {
+  content: "\f1c8";
 }
 .k-i-folder-add:before,
 .k-addfolder:before {
@@ -284,7 +342,8 @@
   content: "\f021";
 }
 .k-si-tick:before,
-.k-success:before {
+.k-success:before,
+.k-i-check:before {
   content: "\f00c";
 }
 .k-si-cancel:before {
