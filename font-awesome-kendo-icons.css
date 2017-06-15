@@ -50,11 +50,13 @@
   content: "\f0d9";
 }
 .k-i-arrow-seek-right:before,
-.k-i-seek-e .k-i-seek-right:before {
+.k-i-seek-e:before,
+.k-i-seek-right:before {
   content: "\f101";
 }
 .k-i-arrow-seek-left:before,
-.k-i-seek-w .k-i-seek-left:before {
+.k-i-seek-w:before,
+.k-i-seek-left:before {
   content: "\f100";
 }
 .k-i-arrow-seek-up:before {
