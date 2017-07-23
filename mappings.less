@@ -344,9 +344,21 @@
     }
 }
 
+.k-i-sort-asc-sm {
+    &:before {
+        content: @fa-var-arrow-up;
+    }
+}
+
 .k-i-sort-desc {
     &:before {
         content: @fa-var-sort-amount-desc;
+    }
+}
+
+.k-i-sort-desc-sm {
+    &:before {
+        content: @fa-var-arrow-down;
     }
 }
 
@@ -647,8 +659,27 @@
         content: @fa-var-refresh;
     }
 }
-.k-i-sort-asc-sm {
+
+.k-i-notification {
     &:before {
-        content: @fa-var-arrow-up;
+        content: @fa-var-bell;
+    }
+}
+
+.k-i-information {
+    &:before {
+        content: @fa-var-info-circle;
+    }
+}
+
+.k-i-question {
+    &:before {
+        content: @fa-var-question-circle;
+    }
+}
+
+.k-i-warning {
+    &:before {
+        content: @fa-var-exclamation-triangle;
     }
 }

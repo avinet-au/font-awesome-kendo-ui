@@ -201,8 +201,14 @@
 .k-i-sort-asc:before {
   content: "\f160";
 }
+.k-i-sort-asc-sm:before {
+  content: "\f062";
+}
 .k-i-sort-desc:before {
   content: "\f161";
+}
+.k-i-sort-desc-sm:before {
+  content: "\f063";
 }
 .k-i-columns:before {
   content: "\f0db";
@@ -369,6 +375,15 @@
 .k-i-reload:before {
   content: "\f021";
 }
-.k-i-sort-asc-sm:before {
-  content: "\f062";
+.k-i-notification:before {
+  content: "\f0f3";
+}
+.k-i-information:before {
+  content: "\f05a";
+}
+.k-i-question:before {
+  content: "\f059";
+}
+.k-i-warning:before {
+  content: "\f071";
 }
