@@ -27,7 +27,8 @@
   top: 6px;
   right: 6px;
 }
-.k-i-arrow-60-up:before {
+.k-i-arrow-60-up:before,
+.k-i-arrow-n:before {
   content: "\f0d8";
 }
 .k-i-arrow-60-right:before,
@@ -39,7 +40,8 @@
   content: "\f0da";
 }
 .k-i-arrow-60-down:before,
-.k-i-collapse:before {
+.k-i-collapse:before,
+.k-i-arrow-s:before {
   content: "\f0d7";
 }
 .k-i-arrow-60-left:before,
