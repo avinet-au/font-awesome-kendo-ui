@@ -12,6 +12,7 @@
     "url": "https://github.com/david-driscoll/font-awesome-kendo-ui"
   },
   "devDependencies": {
+    "bootstrap": "^4.0.0",
     "cheerio": "^0.22.0",
     "grunt": "~1.0.1",
     "grunt-contrib-less": "~1.4.0",
@@ -20,5 +21,9 @@
     "lodash": "~4.17.4",
     "pug": "^2.0.0-beta11",
     "request": "^2.81.0"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "kendo-ui-core": "^2018.1.131"
   }
 }
