@@ -6,10 +6,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "David Driscoll <david.driscoll@gmail.com>",
+  "contributors": [
+    "Daniel Emery <danielremery@gmail.com>"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/david-driscoll/font-awesome-kendo-ui"
+    "url": "https://github.com/avinet-au/font-awesome-kendo-ui"
   },
   "devDependencies": {
     "bootstrap": "^4.0.0",
