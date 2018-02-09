@@ -17,6 +17,7 @@
     "grunt": "~1.0.1",
     "grunt-contrib-less": "~1.4.0",
     "grunt-contrib-watch": "~1.0.0",
+    "grunt-run": "^0.8.0",
     "less": "~2.7.2",
     "lodash": "~4.17.4",
     "pug": "^2.0.0-beta11",

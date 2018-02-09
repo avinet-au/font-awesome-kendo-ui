@@ -26,7 +26,7 @@ All development should be done in the mappings.less file, a basic mapping looks 
     }
 }
 
-To set up node must be installed, and the dependencies need to be installed by running "npm install" followed by "bower install". The command to install bower if you don't already have it is "npm install -g bower".
+To set up node must be installed, and the dependencies need to be installed by running "npm install".
 
 To build simply run the grunt task ("node .\node_modules\grunt\bin\grunt" if you don't have grunt or just "grunt" if grunt is on your path).
 As well as generating the css file from the less this will also generate a test.html file which shows a table with all the mappings displayed to easily identify missing icons or incorrectly mapped icons.

@@ -1,6 +1,7 @@
 const cheerio = require('cheerio');
 const request = require('request');
 const pug = require('pug');
+const fs = require('fs');
 
 var url = "http://docs.telerik.com/kendo-ui/styles-and-layout/icons-web";
 
@@ -30,5 +31,8 @@ function writeTestPage(kendoClasses) {
     };
 
     var template = pug.compileFile('test/test.pug');
-    console.log(template(data));
+
+    fs.writeFile('index.html', template(data), function(err){
+        if(err) throw err;
+    })
 }

@@ -51,6 +51,14 @@ grunt.initConfig({
       }
     }
   },
+  run: {
+    target: {
+      cmd: 'node',
+      args: [
+        './test/buildtest.js'
+      ]
+    }
+  },
   watch: {
     scripts: {
       files: ['*.less'],
@@ -64,8 +72,9 @@ grunt.initConfig({
 
 grunt.loadNpmTasks('grunt-contrib-less');
 grunt.loadNpmTasks('grunt-contrib-watch');
+grunt.loadNpmTasks('grunt-run');
 
-grunt.registerTask('default', [ 'less' ]);
+grunt.registerTask('default', [ 'less', 'run' ]);
 grunt.registerTask('deploy', [ 'default' ]);
 
 };
