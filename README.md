@@ -44,6 +44,5 @@ As well as generating the css file from the less this will also generate a test.
 Deployment
 ----------
  1. Run npm version with the appropriate update type (patch, minor or major)
- 2. Ensure you are logged in with an account that has publish access to @avinet
+ 2. Ensure you are logged in with an account that has publish access to @avinet (npm login)
  3. Run npm publish to push to npm
- 4. Update using npm publish
