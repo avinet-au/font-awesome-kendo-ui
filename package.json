@@ -1,7 +1,7 @@
 {
   "name": "@avinet/font-awesome-kendo-ui",
   "description": "Use font-awesome and kendo-ui in glorious harmonization!",
-  "version": "2.1.1",
+  "version": "2.1.4",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

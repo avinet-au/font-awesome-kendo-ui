@@ -1,501 +1,399 @@
 .k-icon {
-    background-image: none;
-    text-indent: 0;
-    font-size: 1em;
-    font-family: FontAwesome !important;
-    font-weight: normal;
-    font-style: normal;
-    text-decoration: inherit;
-    -webkit-font-smoothing: antialiased;
-    *margin-right: 0.3em;
+  background-image: none;
+  text-indent: 0;
+  font-size: 1em;
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  *margin-right: 0.3em;
 }
-
 .k-numerictextbox .k-icon:before {
-    height: 11px;
-    padding-top: 5px;
+  height: 11px;
+  padding-top: 5px;
 }
-
 .k-calendar .k-icon {
-    vertical-align: middle;
+  vertical-align: middle;
 }
-
-    .k-calendar .k-icon:before {
-        padding-top: 9px;
-    }
-
+.k-calendar .k-icon:before {
+  padding-top: 9px;
+}
 .k-slider .k-button .k-icon {
-    vertical-align: middle;
+  vertical-align: middle;
 }
-
 .k-panelbar-expand,
 .k-panelbar-collapse {
-    top: 6px;
-    right: 6px;
+  top: 6px;
+  right: 6px;
 }
-
 .k-i-arrow-60-up:before,
 .k-i-arrow-n:before {
-    content: "\f0d8" !important;
+  content: "\f0d8";
 }
-
 .k-i-arrow-60-right:before,
 .k-i-expand:before,
 .k-i-arrow-e:before {
-    content: "\f0da" !important;
+  content: "\f0da";
 }
-
 .k-i-arrow-60-left .k-rtl:before {
-    content: "\f0da" !important;
+  content: "\f0da";
 }
-
 .k-i-arrow-60-down:before,
 .k-i-collapse:before,
 .k-i-arrow-s:before {
-    content: "\f0d7" !important;
+  content: "\f0d7";
 }
-
 .k-i-arrow-60-left:before,
 .k-i-arrow-w:before {
-    content: "\f0d9" !important;
+  content: "\f0d9";
 }
-
 .k-i-arrow-60-right .k-rtl:before {
-    content: "\f0d9" !important;
+  content: "\f0d9";
 }
-
 .k-i-arrow-seek-right:before,
 .k-i-seek-e:before,
 .k-i-seek-right:before {
-    content: "\f101" !important;
+  content: "\f101";
 }
-
 .k-i-arrow-seek-left:before,
 .k-i-seek-w:before,
 .k-i-seek-left:before {
-    content: "\f100" !important;
+  content: "\f100";
 }
-
 .k-i-arrow-seek-up:before {
-    content: "\f102" !important;
+  content: "\f102";
 }
-
 .k-i-arrow-seek-down:before {
-    content: "\f103" !important;
+  content: "\f103";
 }
-
 .k-i-arrow-end-right:before {
-    content: "\f101" !important;
+  content: "\f101";
 }
-
 .k-i-arrow-end-left .k-rtl:before {
-    content: "\f101" !important;
+  content: "\f101";
 }
-
 .k-i-arrow-end-left:before {
-    content: "\f100" !important;
+  content: "\f100";
 }
-
 .k-i-arrow-end-right .k-rtl:before {
-    content: "\f100" !important;
+  content: "\f100";
 }
-
 .k-si-arrow-n:before {
-    content: "\f106" !important;
+  content: "\f106";
 }
-
 .k-si-arrow-e:before {
-    content: "\f105" !important;
+  content: "\f105";
 }
-
 .k-si-arrow-s:before {
-    content: "\f107" !important;
+  content: "\f107";
 }
-
 .k-si-arrow-w:before {
-    content: "\f104" !important;
+  content: "\f104";
 }
-
 .k-i-arrow-chevron-up:before {
-    content: "\f077" !important;
+  content: "\f077";
 }
-
 .k-i-arrow-chevron-right:before {
-    content: "\f054" !important;
+  content: "\f054";
 }
-
 .k-i-arrow-chevron-down:before {
-    content: "\f078" !important;
+  content: "\f078";
 }
-
 .k-i-arrow-chevron-left:before {
-    content: "\f053" !important;
+  content: "\f053";
 }
-
 .k-i-plus:before,
 .k-i-plus-disabled:before {
-    content: "\f067" !important;
+  content: "\f067";
 }
-
 .k-i-minus:before,
 .k-i-minus-disabled:before {
-    content: "\f068" !important;
+  content: "\f068";
 }
-
 .k-i-pencil:before,
 .k-i-edit:before {
-    content: "\f040" !important;
+  content: "\f040";
 }
-
 .k-i-close:before,
 .k-delete:before,
-.k-group-delete:before {
-    content: "\f00d" !important;
+.k-group-delete:before,
+.k-i-x:before {
+  content: "\f00d";
 }
-
+.k-window-action .k-icon.k-i-x {
+  margin-top: 10px;
+  margin-right: 5px;
+}
+kendo-dialog-actions.k-dialog-buttongroup {
+  top: -130px;
+}
 .k-i-close:before {
-    content: "\f00d" !important;
+  content: "\f00d";
 }
-
 .k-multiselect .k-delete:before {
-    content: "\f00d" !important;
+  content: "\f00d";
 }
-
 .k-multiselect .k-state-hover .k-delete:before {
-    content: "\f00d" !important;
+  content: "\f00d";
 }
-
 .k-i-tick:before,
 .k-insert:before,
 .k-update:before {
-    content: "\f058" !important;
+  content: "\f058";
 }
-
 .k-i-cancel:before,
 .k-cancel:before,
 .k-denied:before {
-    content: "\f057" !important;
+  content: "\f057";
 }
-
 .k-i-plus:before,
 .k-add:before {
-    content: "\f055" !important;
+  content: "\f055";
 }
-
 .k-i-funnel:before,
 .k-i-filter:before {
-    content: "\f0b0" !important;
+  content: "\f0b0";
 }
-
 .k-i-funnel-clear:before,
 .k-clear-filter:before {
-    content: "\f057" !important;
+  content: "\f057";
 }
-
 .k-i-refresh:before {
-    content: "\f021" !important;
+  content: "\f021";
 }
-
 .k-i-window-restore:before {
-    content: "\f2d2" !important;
+  content: "\f2d2";
 }
-
 .k-i-window-maximize:before {
-    content: "\f2d0" !important;
+  content: "\f2d0";
 }
-
 .k-i-window-minimize:before {
-    content: "\f2d1" !important;
+  content: "\f2d1";
 }
-
 .k-resize-se:before {
-    content: "\f054" !important;
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  content: "\f054";
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
 }
-
 .k-i-calendar:before {
-    content: "\f133" !important;
+  content: "\f133";
 }
-
 .k-i-clock:before {
-    content: "\f017" !important;
+  content: "\f017";
 }
-
 .k-si-plus:before {
-    content: "\f055" !important;
+  content: "\f055";
 }
-
 .k-si-minus:before {
-    content: "\f056" !important;
+  content: "\f056";
 }
-
 .k-i-search:before {
-    content: "\f002" !important;
+  content: "\f002";
 }
-
 .k-i-custom:before {
-    content: "\f013" !important;
+  content: "\f013";
 }
-
 .k-editor .k-i-custom:before {
-    content: "\f013" !important;
+  content: "\f013";
 }
-
 .k-viewHtml:before {
-    content: "\f121" !important;
+  content: "\f121";
 }
-
 .k-i-note:before,
 .k-warning:before {
-    content: "\f06a" !important;
+  content: "\f06a";
 }
-
 .k-i-sort-asc:before {
-    content: "\f160" !important;
+  content: "\f160";
 }
-
 .k-i-sort-asc-sm:before {
-    content: "\f062" !important;
+  content: "\f062";
 }
-
 .k-i-sort-desc:before {
-    content: "\f161" !important;
+  content: "\f161";
 }
-
 .k-i-sort-desc-sm:before {
-    content: "\f063" !important;
+  content: "\f063";
 }
-
 .k-i-columns:before {
-    content: "\f0db" !important;
+  content: "\f0db";
 }
-
 .k-i-file:before {
-    content: "\f016" !important;
+  content: "\f016";
 }
-
 .k-i-file-add:before {
-    content: "\f016" !important;
+  content: "\f016";
 }
-
 .k-i-file-txt:before {
-    content: "\f0f6" !important;
+  content: "\f0f6";
 }
-
 .k-i-file-csv:before {
-    content: "\f016" !important;
+  content: "\f016";
 }
-
 .k-i-file-excel:before {
-    content: "\f1c3" !important;
+  content: "\f1c3";
 }
-
 .k-i-file-word:before {
-    content: "\f1c2" !important;
+  content: "\f1c2";
 }
-
 .k-i-file-mdb:before {
-    content: "\f016" !important;
+  content: "\f016";
 }
-
 .k-i-file-ppt:before {
-    content: "\f1c4" !important;
+  content: "\f1c4";
 }
-
 .k-i-file-pdf:before {
-    content: "\f1c1" !important;
+  content: "\f1c1";
 }
-
 .k-i-file-psd:before {
-    content: "\f016" !important;
+  content: "\f016";
 }
-
 .k-i-file-flash:before {
-    content: "\f016" !important;
+  content: "\f016";
 }
-
 .k-i-file-config:before {
-    content: "\f1c9" !important;
+  content: "\f1c9";
 }
-
 .k-i-file-ascx:before {
-    content: "\f1c9" !important;
+  content: "\f1c9";
 }
-
 .k-i-file-bac:before {
-    content: "\f1c6" !important;
+  content: "\f1c6";
 }
-
 .k-i-file-zip:before {
-    content: "\f1c6" !important;
+  content: "\f1c6";
 }
-
 .k-i-film:before {
-    content: "\f1c8" !important;
+  content: "\f1c8";
 }
-
 .k-i-folder-add:before,
 .k-addfolder:before {
-    content: "\f114" !important;
+  content: "\f114";
 }
-
 .k-i-folder-add:after,
 .k-addfolder:after {
-    content: "\f055" !important;
-    font-size: 0.5em;
-    padding-top: 6px;
-    padding-left: 6px;
+  content: "\f055";
+  font-size: 0.5em;
+  padding-top: 6px;
+  padding-left: 6px;
 }
-
 .k-i-folder-up:before,
 .k-goup:before {
-    content: "\f114" !important;
+  content: "\f114";
 }
-
 .k-i-folder-up:after,
 .k-goup:after {
-    content: "\f062" !important;
-    font-size: 0.5em;
-    padding-top: 6px;
-    padding-left: 6px;
+  content: "\f062";
+  font-size: 0.5em;
+  padding-top: 6px;
+  padding-left: 6px;
 }
-
 .k-bold:before {
-    content: "\f032" !important;
+  content: "\f032";
 }
-
 .k-italic:before {
-    content: "\f033" !important;
+  content: "\f033";
 }
-
 .k-underline:before {
-    content: "\f0cd" !important;
+  content: "\f0cd";
 }
-
 .k-strikethrough:before {
-    content: "\f0cc" !important;
+  content: "\f0cc";
 }
-
 .k-justifyLeft:before {
-    content: "\f036" !important;
+  content: "\f036";
 }
-
 .k-justifyCenter:before {
-    content: "\f037" !important;
+  content: "\f037";
 }
-
 .k-justifyRight:before {
-    content: "\f038" !important;
+  content: "\f038";
 }
-
 .k-justifyFull:before {
-    content: "\f039" !important;
+  content: "\f039";
 }
-
 .k-insertUnorderedList:before {
-    content: "\f0ca" !important;
+  content: "\f0ca";
 }
-
 .k-insertOrderedList:before {
-    content: "\f0cb" !important;
+  content: "\f0cb";
 }
-
 .k-indent:before,
 .k-rtl .k-outdent:before {
-    content: "\f03c" !important;
+  content: "\f03c";
 }
-
 .k-outdent:before,
 .k-rtl .k-indent:before {
-    content: "\f03b" !important;
+  content: "\f03b";
 }
-
 .k-createLink:before {
-    content: "\f0c1" !important;
+  content: "\f0c1";
 }
-
 .k-unlink:before {
-    content: "\f127" !important;
+  content: "\f127";
 }
-
 .k-insertImage:before {
-    content: "\f15b" !important;
+  content: "\f15b";
 }
-
 .k-subscript:before {
-    content: "\f12c" !important;
+  content: "\f12c";
 }
-
 .k-superscript:before {
-    content: "\f12b" !important;
+  content: "\f12b";
 }
-
 .k-upload .k-upload-files .k-delete:before,
 .k-upload .k-upload-files .k-cancel:before {
-    content: "\f05e" !important;
+  content: "\f05e";
 }
-
 .k-upload .k-fail:before {
-    content: "\f05e" !important;
+  content: "\f05e";
 }
-
 .k-retry:before {
-    content: "\f01e" !important;
+  content: "\f01e";
 }
-
 .k-si-refresh:before {
-    content: "\f021" !important;
+  content: "\f021";
 }
-
 .k-si-tick:before,
 .k-success:before,
 .k-i-check:before {
-    content: "\f00c" !important;
+  content: "\f00c";
 }
-
 .k-si-cancel:before {
-    content: "\f05e" !important;
+  content: "\f05e";
 }
-
 .k-imagebrowser .k-upload-button .k-add:before {
-    content: "\f067" !important;
+  content: "\f067";
 }
-
 .k-imagebrowser .k-button-bare span.k-addfolder:before {
-    content: "\f114" !important;
+  content: "\f114";
 }
-
 .k-imagebrowser .k-button-bare span.k-addfolder:after {
-    content: "\f055" !important;
-    font-size: 0.5em;
-    padding-top: 6px;
-    padding-left: 6px;
+  content: "\f055";
+  font-size: 0.5em;
+  padding-top: 6px;
+  padding-left: 6px;
 }
-
 .k-imagebrowser .k-button-bare span.k-delete:before {
-    content: "\f00d" !important;
+  content: "\f00d";
 }
-
 .k-i-reload:before {
-    content: "\f021" !important;
+  content: "\f021";
 }
-
 .k-i-notification:before {
-    content: "\f0f3" !important;
+  content: "\f0f3";
 }
-
 .k-i-information:before {
-    content: "\f05a" !important;
+  content: "\f05a";
 }
-
 .k-i-question:before {
-    content: "\f059" !important;
+  content: "\f059";
 }
-
 .k-i-warning:before {
-    content: "\f071" !important;
+  content: "\f071";
 }
